@@ -1,0 +1,91 @@
+body {
+    background-color: #dff5ff;
+    font-family: Arial;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    width: 30%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+h1 {
+    text-align: center;
+    color: #e88ba8;
+}
+
+.subtitle {
+    text-align: center;
+    color: gray;
+}
+
+/* Label */
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* Input */
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+}
+
+/* Textarea */
+textarea {
+    height: 80px;
+}
+
+/* Radio */
+.pilihan {
+    background-color: #e8f5ff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.pilihan label {
+    display: inline;
+}
+
+/* Checkbox */
+.checkbox {
+    background-color: #fff0f5;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.checkbox label {
+    display: inline;
+}
+
+/* Tombol */
+button {
+    background-color: #f28eaa;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #e56f91;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    color: gray;
+    margin-top: 20px;
+}
